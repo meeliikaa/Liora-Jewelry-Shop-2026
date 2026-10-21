@@ -1,0 +1,17 @@
+
+# BEGIN WordPress
+# دستورالعمل‌های (خطوط) بین "BEGIN WordPress" و "END WordPress"
+# به طور پویا تولید شده‌اند، و فقط باید به وسیلهٔ صافی‌های وردرپرس ویرایش شوند.
+# هر تغییری در دستورالعمل‌های بین این نشان‌گرها بازنویشی خواهند شد.
+
+# END WordPress
+
+# START: All in One SEO Sitemap Rewrite Rules
+# Do not make edits to these rules!
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+
+	RewriteRule sitemap(|[0-9]+)\.xml$ /index.php [L]
+	RewriteRule (default|video)-sitemap\.xsl /index.php [L]
+</IfModule>
+# END: All in One SEO Sitemap Rewrite Rules
